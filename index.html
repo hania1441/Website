@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My website</title>
+		<link href="src/bootstrap.css" rel="stylesheet">
+		<link href="src/hover-min.css" rel="stylesheet" media="all">
+		<link href="style.css" rel="stylesheet">
+		<script src="src/jquery-1.11.2.js"></script>
+		<script src="src/bootstrap.min.js"></script>
+	</head>
+	
+	<body>
+	
+		<!-------nav------>
+		<header>
+			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container-fluid">
+					<div class="nawbar row">
+						<div class="pull-left">
+							<ul class="logo">
+								<li><img src="images/logo.png"/></li>
+								<li>Project</li>
+							</ul>
+						</div>
+						<div class="pull-right">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav">
+										<li><a href="#slider">HOME</a></li>
+										<li><a href="#about">ABOUT</a></li>
+										<li><a href="#development">DEVELOPMENT</a></li>
+										<li class="dropdown">
+											<a class="dropdown-toggle" href="#"  data-toggle="dropdown" role="button" aria-expanded="false">DESIGN<span class="caret"></span></a>
+											<ul class="dropdown-menu" role="menu" >
+												<li><a href="#">AAAAAAAAAAA</a></li>
+												<li><a href="#">BBBBBBBBBBB</a></li>
+												<li><a href="#">CCCCCCCCCCC</a></li>
+												<li><a href="#">DDDDDDDDDDD</a></li>
+												<li><a href="#">EEEEEEEEEEE</a></li>
+											</ul>
+										</li>						  
+										<li><a href="#gallery">GALLERY</a></li>
+										<li><a href="#">CONTACT</a></li>
+									</ul>
+							</div>								
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<!-------slider------>
+		<a name="slider"></a> 
+		<div id="slider">
+			<div class="container">
+				<div id="myCarousel" class="carousel slide row" data-ride="carousel">
+				  
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+					</ol>
+				  
+					<div class="carousel-inner col-md-12 col-xs-12 col-sm-12 role="listbox">
+						<div class="item active">
+							<img src="images/slide1.png" alt="slide1">						  
+						</div>
+						<div class="item">						
+							<img src="images/slide2.png" alt="slide2">
+						</div>						
+					</div>
+				  
+					<div id="slider-nav">
+						<a id="right-nav" href="#myCarousel" role="button" data-slide="prev">
+							<span><img src="images/prawo.png" alt="right"></span>						
+						</a>
+						<a id="left-nav" href="#myCarousel" role="button" data-slide="next">
+							<span><img src="images/lewo.png" alt="left"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-------about and what------>
+		<a name="about"></a> 
+		<div class="container">
+			<div id="about" class="row">			
+				<div class="col-md-6 col-xs-12 col-sm-12">
+					<h3 class="hvr-underline-from-right">About us</h3>
+					<p class="text">
+						<br>Donec sodales semper porttitor. Suspendisse mollis tincidunt velit, et vehicula dui aliquam a. 
+						Morbi molestie dapibus arcu, eu placerat tortor placerat ac. 
+						Phasellus lectus dolor, rutrum ac lectus a, venenatis consequat metus. </br>
+						<br>Proin mollis iaculis urna, ac dictum velit. Etiam et eleifend purus. Cras luctus a elit vitae commodo. 
+						Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. 
+						Donec in adipiscing neque. Curabitur pretium semper est lacinia mattis. Vestibulum arcu enim, gravida vitae tellus a, 
+						venenatis convallis lectus. Donec sit amet enim at ante porta posuere. Cras iaculis tempus fringilla.</br>
+						<br>Duis ac augue metus. Cras odio risus, suscipit in eleifend id, blandit gravida orci. Aenean imperdiet 
+						lacus a velit pharetra, quis dignissim augue porta. 
+						Sed ut odio ut diam hendrerit consequat sed sed leo. Sed nec tincidunt felis. </br>
+					</p>				
+				</div>
+			 			
+				<div class="col-md-6 col-xs-12 col-sm-12">
+					<h3 class="hvr-underline-from-right">What we do</h3>
+					<p class="text">
+						<br>Donec sodales semper porttitor. Suspendisse mollis tincidunt velit, et vehicula dui aliquam a. 
+						Morbi molestie dapibus arcu, eu placerat tortor placerat ac. 
+						Phasellus lectus dolor, rutrum ac lectus a, venenatis consequat metus. </br>
+						<br>Proin mollis iaculis urna, ac dictum velit. Etiam et eleifend purus. Cras luctus a elit vitae commodo. 
+						Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. 
+						Donec in adipiscing neque. Curabitur pretium semper est lacinia mattis. Vestibulum arcu enim, gravida vitae tellus a, 
+						venenatis convallis lectus. Donec sit amet enim at ante porta posuere. Cras iaculis tempus fringilla.</br>
+						<br>Duis ac augue metus. Cras odio risus, suscipit in eleifend id, blandit gravida orci. Aenean imperdiet 
+						lacus a velit pharetra, quis dignissim augue porta. 
+						Sed ut odio ut diam hendrerit consequat sed sed leo. Sed nec tincidunt felis. </br>
+					</p>
+				</div>			
+			</div>		
+		</div>
+		
+		<!-------development------>		
+		<a name="development"></a>         
+		<div id="development">	
+			<div class="container-fluid">
+				
+					<div>	
+						<h3 class="hvr-bounce-out ">Developing<br>your Business</br></h3>
+					</div>
+			</div>
+		</div>		
+		
+		<!-------stuffy------>
+		<div class="container-fluid">
+			<div id="stuffy" class="row">
+				
+				<div class="col-md-4 col-xs-12 col-sm-12" >
+					<img class="icon hvr-grow-rotate" src="images/a.png"/>
+					<h3 class="stuff">Stuff #1</h3>
+					<p class="stuff-text">Donec sodales semper porttitor. Suspendisse mollis tincidunt velit, et vehicula dui aliquam a. Morbi molestie dapibus arcu, eu placerat.</p>
+					
+				</div>
+					 
+				<div class="col-md-4 col-xs-12 col-sm-12">
+					<img class="icon hvr-grow-rotate" src="images/b.png"/>
+					<h3 class="stuff">Stuff #2</h3>
+					<p class="stuff-text">Donec sodales semper porttitor. Suspendisse mollis tincidunt velit, et vehicula dui aliquam a. Morbi molestie dapibus arcu, eu placerat.</p>
+				</div>
+					
+				<div class="col-md-4 col-xs-12 col-sm-12">
+					<img class="icon hvr-grow-rotate" src="images/c.png"/>
+					<h3 class="stuff">Stuff #3</h3>
+					<p class="stuff-text">Donec sodales semper porttitor. Suspendisse mollis tincidunt velit, et vehicula dui aliquam a. Morbi molestie dapibus arcu, eu placerat.</p>
+				</div>			
+				
+			</div>
+		</div>
+			
+		
+		<!-------gallery------>
+		<a name="gallery"></a> 				
+		<div id="gallery" class="container-fluid">
+		
+			<div class="row">
+				<div id="box-1" class="col-md-6 col-xs-12 col-sm-12 box">
+					<span class="caption">
+						<h3>Photo #1</h3>
+						<p>My photo 1.</p>
+					</span>
+				</div>
+				
+				<div id="box-2" class="col-md-6 col-xs-12 col-sm-12 box">
+				
+				</div>
+			</div>
+			
+			<div class="row">
+				<div id="box-3" class="col-md-6 col-xs-12 col-sm-12 box">	
+				
+				</div>
+				
+				<div id="box-4" class="col-md-6 col-xs-12 col-sm-12 box">		
+			
+				</div>
+			</div>
+		
+		</div>
+		
+		<!-------footer------>
+		<footer id="footer" class="container row col-md-12 col-xs-12 col-sm-12" >
+			<p>My website</p>
+		</footer>  
+      	  
+	</body>
+</html>
